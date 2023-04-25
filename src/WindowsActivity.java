@@ -10,6 +10,7 @@ public static void main(String[] args) {
 	driver.navigate().to("https://rahulshettyacademy.com/locatorspractice/");
 	driver.navigate().back();
 	driver.navigate().forward();
+	System.out.println("For Checking Git");
 	
 	
 }
