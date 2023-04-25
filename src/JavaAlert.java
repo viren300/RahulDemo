@@ -16,6 +16,7 @@ public class JavaAlert {
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
 		System.out.println("Changes done after the new branch");
+		System.out.println("Changes made by GitStuff---");
 
 	}
 
