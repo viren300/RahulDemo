@@ -15,6 +15,7 @@ public class JavaAlert {
 		driver.findElement(By.cssSelector("[id=alertbtn]")).click();
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
+		System.out.println("Changes done after the new branch");
 
 	}
 
